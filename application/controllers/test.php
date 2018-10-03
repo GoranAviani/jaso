@@ -17,5 +17,11 @@ class Test extends CI_Controller
 	{
 		phpinfo();
 	}
+
+	public function testing($word, $number)
+	{
+		echo $word;
+		echo $number;
+	}
 }
 ?>
