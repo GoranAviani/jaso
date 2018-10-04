@@ -10,7 +10,7 @@ class Test extends CI_Controller
 {
 	public function index()
 	{
-		echo 'Hello World!';
+		echo 'Hello World from test!';
 	}
 
 	function phpinfo()
