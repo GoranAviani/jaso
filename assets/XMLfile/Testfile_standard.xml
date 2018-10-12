@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<invoices>
+<clientname>Testclient</clientname>
+<clientdata></clientdata>
+<invoice>
+<Invoicenumber>100149</Invoicenumber>
+<paymentreference>1001493</paymentreference>
+<billdate>2018-05-10</billdate>
+<duedate>2018-05-24</duedate>
+<invoiceamount>60.00</invoiceamount>
+<remainingamount>60.00</remainingamount>
+<exvat>48.00</exvat>
+<vatpercentage>25</vatpercentage>
+<totalvat>12.00</totalvat>
+<InvoiceType>INVOICE</InvoiceType>
+<Currency>EUR</Currency>
+<customer>2512</customer>
+<customername>Veli-Matti Karppinen</customername>
+<personalnumber></personalnumber>
+<email></email>
+<customeradress>Kämnerinkuja 1 B 24</customeradress>
+<customerpostalcode>FI-750</customerpostalcode>
+<customercity>Helsinki</customercity>
+<customerland>Finland</customerland>
+<customertype>PRV</customertype>
+<Invoicerows>
+<row>
+<articleno>123</articleno>
+<description>TestArticle</description>
+<rowexvat>48.00</rowexvat>
+<rowvat>12.00</rowvat>
+<rowtotal>60.00</rowtotal>
+</row>
+</Invoicerows>
+</invoice>
+</invoices>
