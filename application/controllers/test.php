@@ -12,6 +12,7 @@ class Test extends CI_Controller
 	{
 		//echo 'Hello World from test!';
 		$this->load->view('test');
+		$this->load->view('test_footer');
 	}
 
 	function phpinfo()

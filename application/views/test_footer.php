@@ -3,11 +3,14 @@
 
 <head>
 	<meta charset = "utf-8">
-	<title>Example of CodeIgniter View</title>
+	<title>Example of CodeIgniter footer view</title>
 </head>
 
 <body>
-This is an example of CodeIgniter View
+<br>
+<br>
+
+This is an example of CodeIgniter Footer view
 </body>
 
 </html>
