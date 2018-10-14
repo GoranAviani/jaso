@@ -10,7 +10,8 @@ class Test extends CI_Controller
 {
 	public function index()
 	{
-		echo 'Hello World from test!';
+		//echo 'Hello World from test!';
+		$this->load->view('test');
 	}
 
 	function phpinfo()
@@ -23,5 +24,15 @@ class Test extends CI_Controller
 		echo $word;
 		echo $number;
 	}
+
+
+	private function _message()
+	{
+		//private method
+	}
+
+
 }
+
+
 ?>
