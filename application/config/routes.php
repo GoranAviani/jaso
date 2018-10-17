@@ -55,8 +55,4 @@ $route['translate_uri_dashes'] = FALSE;
 
 
 
-$route['person'] = "Person_controller";
-$route['person/add'] = 'Person_controller/add_person';
-$route['person/add_view'] = 'Person_controller/add_person_view';
-$route['person/edit/(\d+)'] = 'Person_controller/update_person_view/$1';
-$route['person/delete/(\d+)'] = 'Person_controller/delete_person/$1';
+//$route['person/delete/(\d+)'] = 'Person_controller/delete_person/$1';
