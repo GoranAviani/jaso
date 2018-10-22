@@ -10,7 +10,7 @@ class Person extends CI_Controller
 		$this->load->database();
 
 		//load Model
-		$this->load->model('Hello_Model');
+		$this->load->model('Person_Model');
 	}
 
 	public function savedata()
@@ -22,13 +22,13 @@ class Person extends CI_Controller
 		if($this->input->post('savePerson'))
 		{
 			//get form's data and store in local variable
-			$n=$this->input->post('name');
-			$e=$this->input->post('email');
-			$m=$this->input->post('mobile');
+			$name=$this->input->post('name');
+			$email=$this->input->post('email');
+			$mobile=$this->input->post('mobile');
 
-//call saverecords method of Hello_Model and pass variables as parameter
-			$this->Hello_Model->saverecords($n,$e,$m);
-			echo "Records Saved Successfully";
+//call saverecords method of Person_Model and pass variables as parameter
+			$this->Person_Model->saverecords($name,$email,$mobile);
+			echo "Person Saved Successfully";
 		}
 	}
 }
