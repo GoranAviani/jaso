@@ -20,7 +20,7 @@
 			<td><input type="text" name="mobile"/></td>
 		</tr>
 		<tr>
-			<td colspan="2" align="center"><input type="submit" name="save" value="Save Data"/></td>
+			<td colspan="2" align="center"><input type="submit" name="savePerson" value="Save a new Person"/></td>
 		</tr>
 	</table>
 

@@ -19,9 +19,9 @@ class Person extends CI_Controller
 		$this->load->view('registration');
 
 		//Check submit button
-		if($this->input->post('save'))
+		if($this->input->post('savePerson'))
 		{
-			//get form's data and store in local varable
+			//get form's data and store in local variable
 			$n=$this->input->post('name');
 			$e=$this->input->post('email');
 			$m=$this->input->post('mobile');
