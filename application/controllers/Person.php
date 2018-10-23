@@ -26,8 +26,8 @@ class Person extends CI_Controller
 			$email=$this->input->post('email');
 			$mobile=$this->input->post('mobile');
 
-//call saverecords method of Person_Model and pass variables as parameter
-			$this->Person_Model->saverecords($name,$email,$mobile);
+			//call saverecords method of Person_Model and pass variables as parameter
+			$this->Person_Model->saveperson($name,$email,$mobile);
 			echo "Person Saved Successfully";
 		}
 	}
