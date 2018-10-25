@@ -13,6 +13,12 @@ class Person extends CI_Controller
 		$this->load->model('Person_Model');
 	}
 
+	public function index()
+	{
+		echo 'Hi from Person controller, index function!';
+	}
+
+
 	public function savedata()
 	{
 		//load registration view form
