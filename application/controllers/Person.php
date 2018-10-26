@@ -37,5 +37,13 @@ class Person extends CI_Controller
 			echo "Person Saved Successfully";
 		}
 	}
+
+
+
+	public function show_data()
+	{
+		$result['persons_data']=$this->Person_Model->show_persons();
+		$this->load->view('show_all_persons',$result);
+	}
 }
 ?>
