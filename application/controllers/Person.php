@@ -11,13 +11,14 @@ class Person extends CI_Controller
 
 		//load Model
 		$this->load->model('Person_Model');
+
+		$this->load->helper('url');
 	}
 
 	public function index()
 	{
 		echo 'Hi from Person controller, index function!';
 	}
-
 
 	public function savedata()
 	{
@@ -34,16 +35,21 @@ class Person extends CI_Controller
 
 			//call saverecords method of Person_Model and pass variables as parameter
 			$this->Person_Model->saveperson($name,$email,$mobile);
-			echo "Person Saved Successfully";
+			redirect("Person/show_data");
 		}
 	}
-
-
 
 	public function show_data()
 	{
 		$result['persons_data']=$this->Person_Model->show_persons();
 		$this->load->view('show_all_persons',$result);
+	}
+
+	public function delete_data()
+	{
+		$id=$this->input->get('id');
+		$this->Person_Model->delete_persons($id);
+		 redirect("Person/show_data");
 	}
 }
 ?>

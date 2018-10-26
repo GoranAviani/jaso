@@ -13,5 +13,8 @@ class Person_Model extends CI_Model
 		return $query->result();
 	}
 
-
+	function delete_persons($id)
+	{
+		$this->db->query("delete  from users where user_id='".$id."'");
+	}
 }
