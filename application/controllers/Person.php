@@ -11,8 +11,6 @@ class Person extends CI_Controller
 
 		//load Model
 		$this->load->model('Person_Model');
-
-		$this->load->helper('url');
 	}
 
 	public function index()

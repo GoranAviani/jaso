@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Display Records</title>
+	<title>Display persons</title>
 </head>
 
 <body>
